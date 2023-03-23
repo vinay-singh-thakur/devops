@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lee cooper home page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <style>
+        .first,
+        .sec {
+            float: left;
+
+        }
+
+        .first {
+            width: 43%;
+            line-height: 2;
+        }
+
+        .sec {
+            width: 40%;
+        }
+        .bgimages{
+            background-image: url("https://static.wixstatic.com/media/3b78a8_baeebace11b348c1b36af23ec0573a84~mv2.jpg/v1/crop/x_0,y_1964,w_5464,h_2771/fill/w_1379,h_699,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/MK_LC_TCC_DKSH_SS22_39.jpg");
+            background-size: 100% 100%;
+            width: 100%;
+            height: 700px;
+        }
+        @media screen and (max-width: 950px) and (min-width: 300px) {
+            .first {
+                width: 100%;
+            }
+            .bgimages{
+                height:350px !important;
+                font-size: 20px !important;
+                padding-top: 150px !important;
+            }
+            .log1 , .log2 , .log3{
+                width:90% !important;
+                margin: 0px !important;
+                padding: 0px !important;
+            }
+            .log3{
+                width:120px !important;
+                height:150px !important;
+            }
+            .artisan{
+                font-size: 10px !important;
+                margin:0px !important;
+                margin-top: 15px !important;
+                padding: 0px !important;
+            
+            }
+            .size {
+                width: 100px !important;
+            }
+
+            .size2 {
+                height: 125px;
+            }
+            .insta {
+                font-size: 16px !important;
+            }
+
+            .icons {
+                display: inline !important;
+                width: 120px !important;
+                margin: 15px !important;
+                padding: 15px !important;
+            }
+            .sm {
+                display: inline !important;
+                margin: 5px !important;
+                padding: 3px !important;
+                float: left !important;
+                font-size: 12px !important;
+            }
+
+            .sms {
+                display: inline !important;
+                font-size: 15px !important;
+                margin: 5px 10px !important;
+                padding: 5px 10px !important;
+                float: left !important;
+            }
+        }
+        @media screen and (max-width: 1050px) and (min-width: 700px) {
+            .first {
+                width: 100% !important;
+            }
+            .log1 , .log2 , .log3{
+                width:90% !important;
+                margin: 0px !important;
+                padding: 0px !important;
+            }
+            .artisan{
+                font-size: 18px !important;
+                margin:0px !important;
+                margin-top: 15px !important;
+                padding: 5px !important;
+            
+            }
+            .insta {
+                font-size: 25px !important;
+            }
+
+            .size {
+                width: 190px !important;
+            }
+
+            .size2 {
+                height: 240px;
+            }
+
+            .sm {
+                display: inline !important;
+                margin-left: 45px !important;
+                margin-right: 0px !important;
+                padding: 0px !important;
+                font-size: 18px !important;
+                text-align: center !important;
+            }
+
+            .sms {
+                text-align: center !important;
+                font-size: 17px !important;
+                margin-left: 35px !important;
+                margin-right: 0px !important;
+                padding: 0px !important;
+
+            }
+
+            .icons {
+                display: inline !important;
+                width: 155px !important;
+                margin: 6px !important;
+                padding: 6px !important;
+            }
+
+        }
+
+        @media screen and (max-width: 1100px) and (min-width: 800px) {
+            .first {
+                width: 100% !important;
+            }
+            .log1 , .log2 , .log3{
+                width:90% !important;
+                margin: 0px !important;
+                padding: 0px !important;
+            }
+            .artisan{
+                font-size: 18px !important;
+                margin:0px !important;
+                margin-top: 15px !important;
+                padding: 5px !important;
+            
+            }
+            .insta {
+                font-size: 25px !important;
+            }
+
+            .size {
+                width: 190px !important;
+            }
+
+            .size2 {
+                height: 240px;
+            }
+
+            .sm {
+                display: inline !important;
+                margin-left: 55px !important;
+                margin-right: 0px !important;
+                padding: 0px !important;
+                font-size: 18px !important;
+                text-align: center !important;
+            }
+
+            .sms {
+                text-align: center !important;
+                font-size: 17px !important;
+                margin-left: 40px !important;
+                margin-right: 0px !important;
+                padding: 0px !important;
+
+            }
+
+            .icons {
+                display: inline !important;
+                width: 155px !important;
+                margin: 6px !important;
+                padding: 6px !important;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar sticky-top bg-light fs-5">
+        <div class="container">
+            <span class="navbar-text text-danger d-none d-sm-block" data-bs-toggle="modal" data-bs-target="#myModal"
+                style="cursor:pointer">
+                COLLECTIONS
+            </span>
+            <span class="navbar-brand">
+                <a href="#"><img
+                        src="https://static.wixstatic.com/media/3b78a8_acb13bb2eb38454b972bf68fc72cfbbd~mv2.png/v1/fill/w_155,h_67,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Logo%202022.png"
+                        alt="Logo" class="d-inline align-text-top"></a>
+            </span>
+            <a href="OUR STORY.html" class="navbar-text text-danger d-none d-sm-block text-decoration-none">
+                OUR STORY
+            </a>
+            <button class="navbar-toggler d-block d-sm-none" type="button" data-bs-toggle="modal"
+                data-bs-target="#myModal" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            </div>
+        </div>
+    </nav>
+    <div class="modal" id="myModal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="first">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        <div class="ms-5  fs-5">
+                            <div><a href="../home.html" class="text-decoration-none text-black">HOME</a>
+                            </div>
+                            <div><a href="UNITED BY DENIM.html" class="text-decoration-none text-black">UNITED BY
+                                    DENIM</a></div>
+                            <div><a href="OUR DENIM FITS.html" class="text-decoration-none text-black">OUR DENIM
+                                    FITS</a></div>
+                            <div><a href="FOOTWEAR & ACCESSORIES.html" class="text-decoration-none text-black">FOOTWEAR
+                                    & ACCESSORIES</a></div>
+                            <div><a href="THE COOPER COLLECTION.html" class="text-decoration-none text-danger active"
+                                    aria-current="page">THE COOPER COLLECTION</a></div>
+                            <div><a href="LEE COOPER KIDS.html" class="text-decoration-none text-black">LEE COOPER
+                                    KIDS</a></div>
+                            <div><a href="LEE COOPER X TEALER.html" class="text-decoration-none text-black">LEE COOPER X
+                                    TEALER</a></div>
+                            <div><a href="OUR STORY.html" class="text-decoration-none text-black">OUR STORY</a></div>
+                        </div>
+                    </div>
+                    <div class="sec"><img class="mt-5 pt-2 d-none d-sm-none d-md-inline"
+                            src="https://static.wixstatic.com/media/3b78a8_325f3090154541acae522b7583f37e77~mv2.jpg/v1/fill/w_437,h_252,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/s3.jpg"
+                            class="img-fluid" alt="..."></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pt-4"style="background-color:#dddcd1;">
+        <div class="bgimages text-center text-white fw-bolder" style="font-size:60px;padding-top:350px">
+            THE COOPER COLLECTION
+        </div>
+        <div class="text-center p-5 fw-bolder"><a href="" class="text-white text-decoration-none">VIEW THE COLLECTION</a></div>
+    </div>
+        <div class="container d-flex flex-row p-5">
+            <div>
+            <img class="log1"src="https://static.wixstatic.com/media/3b78a8_690673c71486437988b99f0354223e3e~mv2.png/v1/fill/w_480,h_189,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/3b78a8_690673c71486437988b99f0354223e3e~mv2.png"class="img-fluid">
+            <img class="log2"src="https://static.wixstatic.com/media/3b78a8_3953c65e17c749b6a0029feac97849b3~mv2.jpg/v1/crop/x_420,y_0,w_5044,h_6766/fill/w_456,h_612,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/MK_LC_TCC_DKSH_SS22_65.jpg" class="img-fluid">
+        </div>
+        <div>
+            <img class="mb-3 log3"src="https://static.wixstatic.com/media/3b78a8_1225174b192e48599bdd0de44f82191c~mv2.jpg/v1/crop/x_159,y_212,w_4817,h_6420/fill/w_439,h_585,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/MK_LC_TCC_DKSH_SS22_03.jpg"class="img-fluid" alt="">
+            <div class="mt-5 fs-4 pt-5 pe-3 artisan">An artisan collection featuring selvedge denim, premium fabrics and Lee Cooper's heritage workwear details.
+
+            </div>
+        </div>
+        </div>
+    <div class="border-top border-3  mt-5 mb-2"></div>
+    <div class="text-center fs-3 fw-bolder mb-2 insta">FOLLOW LEE COOPER ON INSTAGRAM</div>
+    <div class="mt-3 text-center">
+        <img class="size"
+            src="https://scontent-iad3-2.cdninstagram.com/v/t51.2885-15/323841184_8461204537287524_1871560805053104099_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=TBxM5_8C-sMAX_wcjvQ&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AEQ6tj4EAAAA&oh=00_AfCrqqdyzq5UuaRw8vWvgV0-78YRLQvEPZ6lszgva4ZnXg&oe=63C58A4D"
+            width="240px"alt="...">
+        <img class="size size2"
+            src="https://scontent-iad3-2.cdninstagram.com/v/t51.2885-15/322625997_1821632184874548_1487076528159752717_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=_LVAUuh2gm8AX9NzAe-&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AEQ6tj4EAAAA&oh=00_AfD3bsDrVpf87g0Rv19PnncBWj5cZ7A9aUcRSh9aXuRQyg&oe=63C72D21"
+            width="300px" height="300px" alt="...">
+        <img class="size"
+            src="https://scontent-iad3-2.cdninstagram.com/v/t51.2885-15/320523184_1362033121295995_7405830434822517244_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=FgOGJTqC8bAAX-p0w77&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AEQ6tj4EAAAA&oh=00_AfCM6e4_Jzftqa7BL_CsdK1RXv_5c2wnnr2bJn3pwJRZmg&oe=63C5B706"
+            width="240px" alt="...">
+    </div>
+    <div class="container mt-4 text-center ">
+        <div class="border-bottom border-2 border-dark ">
+            <img class="mb-5 icons"
+                src="https://static.wixstatic.com/media/3b78a8_df29598af40b41a6b24e9dd3ed22b7a4~mv2.png/v1/fill/w_210,h_50,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/The-Cooper-Collection_Final.png">
+            <img class="ms-5 ps-5 mb-5 icons"
+                src="https://static.wixstatic.com/media/3b78a8_e89524e749214c1493d8c30b1ba180fd~mv2.png/v1/fill/w_153,h_89,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/l2.png">
+            <img class="ms-5 ps-5 mb-5 icons"
+                src="https://static.wixstatic.com/media/3b78a8_e0b1ee3998ed41a4ab319d6cac1a81cb~mv2.png/v1/fill/w_153,h_89,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/l3.png">
+            <img class="ms-5 ps-5 mb-5 icons"
+                src="https://static.wixstatic.com/media/3b78a8_3c3058610f944d9ebbbf4f5ee6763683~mv2.png/v1/fill/w_144,h_89,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/LC-workwear-Logo-web-FINAL3_edited.png">
+        </div>
+    </div>
+    <div class="container ms-3 ps-5 mt-5 fs-5 text-center sm">
+        <a class="text-decoration-none text-black ms-5 ps-5 sm" href="https://www.facebook.com/leecooperbrands" target="_blank">FACEBOOK</a>
+        <a class="text-decoration-none text-black ms-5 ps-5 sm" href="https://twitter.com/leecooper" target="_blank">TWITTER</a>
+        <a class="text-decoration-none text-black ms-5 ps-5 sm" href="https://www.youtube.com/user/1908LeeCooper" target="_blank">YOUTUBE</a>
+        <a class="text-decoration-none text-black ms-5 ps-5 sm" href="https://www.instagram.com/leecooper1908/" target="_blank">INSTAGRAM</a>
+        <a class="text-decoration-none text-black ms-5 ps-5 sm" href="" target="_blank">TIKTOK</a>
+    </div>
+    <div class="container text-center mt-5 fs-5 sms">
+        <a class="text-decoration-none text-black sms" href="TREMS AND CONDITIONS.html">TREMS AND CONDITIONS</a>
+        <a class="text-decoration-none text-black ms-4 sms" href="CONTACTS.html">CONTACTS</a>
+        <a class="text-decoration-none text-black ms-4 sms" href="PRIVACY POLICY.html">PRIVACY POLICY</a>
+        <a class="text-decoration-none text-black ms-4 sms">&COPY; LEE COOPER 2023</a>
+    </div>
+
+</body>
+
+</html>

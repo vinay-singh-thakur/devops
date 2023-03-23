@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lee cooper home page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <style>
+        .first,
+        .sec {
+            float: left;
+
+        }
+
+        .first {
+            width: 43%;
+            line-height: 2;
+        }
+
+        .sec {
+            width: 40%;
+        }
+
+        @media screen and (max-width: 850px) and (min-width: 250px) {
+            .first {
+                width: 100% !important;
+            }
+
+            .head {
+                font-size: 25px !important;
+            }
+
+            .par {
+                font-size: 18px !important;
+                padding: 0px !important;
+                margin: 0px !important;
+            }
+
+            .pics {
+                margin-right: 100px !important;
+                margin-top: 10px !important;
+                padding: 0px !important;
+                width: 80% !important;
+            }
+
+            .first {
+                width: 100%;
+            }
+
+            .size {
+                width: 100px !important;
+            }
+
+            .size2 {
+                height: 125px;
+            }
+
+            .insta {
+                font-size: 16px !important;
+            }
+
+            .icons {
+                display: inline !important;
+                width: 120px !important;
+                margin: 15px !important;
+                padding: 15px !important;
+            }
+
+            .sm {
+                display: inline !important;
+                margin: 5px !important;
+                padding: 3px !important;
+                float: left !important;
+                font-size: 12px !important;
+            }
+
+            .sms {
+                display: inline !important;
+                font-size: 15px !important;
+                margin: 5px 10px !important;
+                padding: 5px 10px !important;
+                float: left !important;
+            }
+        }
+
+        @media screen and (max-width: 1050px) and (min-width: 700px) {
+            .first {
+                width: 100% !important;
+            }
+
+            .head {
+                font-size: 25px !important;
+            }
+
+            .par {
+                font-size: 18px !important;
+                padding: 0px !important;
+                margin: 0px !important;
+            }
+
+            .pics {
+                margin: 0px !important;
+                margin-top: 50px !important;
+                padding: 0px !important;
+                width: 100% !important;
+            }
+
+            .insta {
+                font-size: 25px !important;
+            }
+
+            .size {
+                width: 190px !important;
+            }
+
+            .size2 {
+                height: 240px;
+            }
+
+            .sm {
+                display: inline !important;
+                margin-left: 45px !important;
+                margin-right: 0px !important;
+                padding: 0px !important;
+                font-size: 18px !important;
+                text-align: center !important;
+            }
+
+            .sms {
+                text-align: center !important;
+                font-size: 17px !important;
+                margin-left: 32px !important;
+                margin-right: 0px !important;
+                padding: 0px !important;
+
+            }
+
+            .icons {
+                display: inline !important;
+                width: 155px !important;
+                margin: 6px !important;
+                padding: 6px !important;
+            }
+
+        }
+
+        @media screen and (max-width: 1100px) and (min-width: 800px) {
+            .first {
+                width: 100% !important;
+            }
+
+            .head {
+                font-size: 25px !important;
+            }
+
+            .par {
+                font-size: 18px !important;
+                padding: 0px !important;
+                margin: 0px !important;
+            }
+
+            .pics {
+                margin-top: 50px !important;
+                padding: 0px !important;
+                width: 100% !important;
+            }
+
+            .insta {
+                font-size: 25px !important;
+            }
+
+            .size {
+                width: 190px !important;
+            }
+
+            .size2 {
+                height: 240px;
+            }
+
+            .sm {
+                display: inline !important;
+                margin-left: 55px !important;
+                margin-right: 0px !important;
+                padding: 0px !important;
+                font-size: 18px !important;
+                text-align: center !important;
+            }
+
+            .sms {
+                text-align: center !important;
+                font-size: 17px !important;
+                margin-left: 40px !important;
+                margin-right: 0px !important;
+                padding: 0px !important;
+
+            }
+
+            .icons {
+                display: inline !important;
+                width: 155px !important;
+                margin: 6px !important;
+                padding: 6px !important;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar sticky-top bg-light fs-5">
+        <div class="container">
+            <span class="navbar-text text-danger d-none d-sm-block" data-bs-toggle="modal" data-bs-target="#myModal"
+                style="cursor:pointer">
+                COLLECTIONS
+            </span>
+            <span class="navbar-brand">
+                <a href="#"><img
+                        src="https://static.wixstatic.com/media/3b78a8_acb13bb2eb38454b972bf68fc72cfbbd~mv2.png/v1/fill/w_155,h_67,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Logo%202022.png"
+                        alt="Logo" class="d-inline align-text-top"></a>
+            </span>
+            <a href="OUR STORY.html" class="navbar-text text-danger d-none d-sm-block text-decoration-none">
+                OUR STORY
+            </a>
+            <button class="navbar-toggler d-block d-sm-none" type="button" data-bs-toggle="modal"
+                data-bs-target="#myModal" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            </div>
+        </div>
+    </nav>
+    <div class="modal" id="myModal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="first">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        <div class="ms-5  fs-5">
+                            <div><a href="../home.html" class="text-decoration-none text-black">HOME</a>
+                            </div>
+                            <div><a href="UNITED BY DENIM.html" class="text-decoration-none text-black">UNITED BY
+                                    DENIM</a></div>
+                            <div><a href="OUR DENIM FITS.html" class="text-decoration-none text-black">OUR DENIM
+                                    FITS</a></div>
+                            <div><a href="FOOTWEAR & ACCESSORIES.html" class="text-decoration-none text-black">FOOTWEAR
+                                    & ACCESSORIES</a></div>
+                            <div><a href="THE COOPER COLLECTION.html" class="text-decoration-none text-black">THE COOPER
+                                    COLLECTION</a></div>
+                            <div><a href="LEE COOPER KIDS.html" class="text-decoration-none text-black">LEE COOPER
+                                    KIDS</a></div>
+                            <div><a href="LEE COOPER X TEALER.html" class="text-decoration-none text-black">LEE COOPER X
+                                    TEALER</a></div>
+                            <div><a href="OUR STORY.html" class="text-decoration-none text-danger active"
+                                    aria-current="page">OUR STORY</a></div>
+                        </div>
+                    </div>
+                    <div class="sec"><img class="mt-5 pt-2 d-none d-sm-none d-md-inline"
+                            src="https://static.wixstatic.com/media/3b78a8_325f3090154541acae522b7583f37e77~mv2.jpg/v1/fill/w_437,h_252,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/s3.jpg"
+                            class="img-fluid" alt="..."></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text-center text-white p-5 " style="background-color:#222d4f;">
+        <div class="fw-bold mt-3 pb-3 head" style="font-size:60px">OUR STORY</div>
+        <div class="fs-2 pt-1 pb-1 p-5 m-5 par ">Founded in London’s East End in 1908, Lee Cooper has a rich history
+            spanning
+            over a century, establishing its iconic status as the Original British Denim brand. From humble beginnings
+            in workwear, our brand has become known as a global style innovator and the go-to-denim for legendary
+            British rock ‘n’ roll bands.</div>
+        <div class="fs-2 pt-1 pb-1 mb-1 mt-1 p-5 m-5 par">The heritage of the pioneering principles established by
+            Morris
+            Cooper have informed this latest line of premium selvedge denim</div>
+        <div class="fs-2 pt-1 mt-1 mb-4 par">- The Cooper Collection.</div>
+    </div>
+    <div class=" border-bottom border-2 border-dark">
+        <div class="container mt-4 ">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-7 text-center">
+                    <h2 class="heading mb-3 border-bottom border-2 border-danger">1908</h2>
+                    <p class="lead par">The Lee Cooper journey began in 1908 as Europe’s first, authentic denim brand.
+                        Born
+                        in Lithuania, Morris Cooper left his hometown for East London, via South Africa, to establish a
+                        workwear production company called The Morris Cooper Factory. Cooper built up a strong
+                        reputation for producing durable and long-lasting workwear and overalls.</p>
+                </div>
+                <div class="col-md-5 ">
+                    <img class="img-fluid m-5 pics"
+                        style="background-color:#ebebe3;background-size:100% 100%;height:100%" height="500px"
+                        src="https://static.wixstatic.com/media/3b78a8_e94855c5e5854ff2849c4c900b43f2a0~mv2.jpg/v1/fill/w_502,h_273,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/s1.jpg"
+                        alt="">
+
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-7 text-center">
+                    <h2 class="heading mb-3 border-bottom border-2 border-danger">1900s – 1920s</h2>
+                    <p class="lead par">With the arrival of the First World War the company converted its production to
+                        military uniforms for the British troops.</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="img-fluid m-5 pics" style="background-color:#e4e4db;"
+                        src="https://static.wixstatic.com/media/3b78a8_ddd125e8fe814ee0b67ee46d8265ac98~mv2.jpg/v1/fill/w_502,h_273,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/s2.jpg"
+                        alt="">
+
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-7 text-center">
+                    <h2 class="heading mb-3 border-bottom border-2 border-danger">1930s</h2>
+                    <p class="lead par">In 1931, the company name was changed to M. Cooper (Overalls). And, at the start
+                        of
+                        World War II, the company was asked to make battle uniforms and denim fatigues for the British
+                        armed forces.</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="img-fluid m-5 pics" style="background-color:#dddcd1;"
+                        src="https://static.wixstatic.com/media/3b78a8_325f3090154541acae522b7583f37e77~mv2.jpg/v1/fill/w_502,h_273,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/s3.jpg"
+                        alt="">
+
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-7 text-center">
+                    <h2 class="heading mb-3 border-bottom border-2 border-danger">1940s</h2>
+                    <p class="lead par">At the end of war, Lee Cooper started to reinvent jeans as fashion. Harold
+                        Cooper,
+                        Morris’s son, took over the factory after his father’s death and established the new direction
+                        of workwear to jeans production and the now famous brand name ‘Lee Cooper’ was born. Within two
+                        years, Lee Cooper was at the forefront of bringing denim jeans to the UK market.</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="img-fluid m-5 pics" style="background-color:#deddd2;"
+                        src="https://static.wixstatic.com/media/3b78a8_eb02a0b7b15840658ef3cbb60a461244~mv2.jpg/v1/fill/w_502,h_273,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/s4.jpg"
+                        alt="">
+
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-7 text-center">
+                    <h2 class="heading mb-3 border-bottom border-2 border-danger">1950s</h2>
+                    <p class="lead par">Rock ‘n’ roll was born! Lee Cooper was the first ‘jeans brand’ to recognise the
+                        link
+                        between music and fashion, and has tapped into the vibrant undercurrent of musical youth ever
+                        since. Throughout its history the brand has worked with legendary artists including the Rolling
+                        Stones, UB40, Serge Gainsbourg and Rod Stewart. During the 1950s the brand also appeared in
+                        print advertising for the first time.</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="img-fluid m-5 pics" style="background-color:#deddd1;"
+                        src="https://static.wixstatic.com/media/3b78a8_fcfdbfdccc6f4bbfac62b34ca53b59e2~mv2.jpg/v1/fill/w_502,h_273,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/s5.jpg"
+                        alt="">
+
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-7 text-center">
+                    <h2 class="heading mb-3 border-bottom border-2 border-danger">1960s</h2>
+                    <p class="lead par">Lee Cooper made headlines by introducing the first jeans for women with a ‘front
+                        zip’, causing a stir and public outcry. The range for women increased in size and a wider
+                        selection of styles was put on the market. The vibrant 60s inspired a new range of Lee Cooper
+                        coloured jeans that took London by storm.</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="img-fluid m-5 pics" style="background-color:#deddd2;"
+                        src="https://static.wixstatic.com/media/3b78a8_21f6d6049094488d94435ce9465eed38~mv2.jpg/v1/fill/w_502,h_273,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/s6.jpg"
+                        alt="">
+
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-7 text-center">
+                    <h2 class="heading mb-3 border-bottom border-2 border-danger">1970s</h2>
+                    <p class="lead par">The 70s saw Lee Cooper’s innovative fashions assist in defining the disco
+                        decade.
+                        Hipster jeans were high trend and saw Lee Cooper work with Serge Gainsbourg and Jane Birkin who
+                        were constantly seen donning a pair of Lee Cooper jeans. In 1971 Lee Cooper turned heads across
+                        Europe with its mini skirt and the introduction of the first 32” bellbottom flair.</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="img-fluid m-5 pics" style="background-color:#deddd1;"
+                        src="https://static.wixstatic.com/media/3b78a8_a82b8e0bcb4048cc882d74004a274550~mv2.jpg/v1/fill/w_502,h_273,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/s7.jpg"
+                        alt="">
+
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-7 text-center">
+                    <h2 class="heading mb-3 border-bottom border-2 border-danger">1980s</h2>
+                    <p class="lead par">In the 1980s, a sponsorship with The Rolling Stones took the Lee Cooper brand
+                        across
+                        the world, establishing Lee Cooper as the go-to brand for rock stars and music fans. Legendary
+                        fashion photographer and artist Jean Paul Goude was brought on board to launch the first
+                        ‘jogging jean with his innovative, yet unorthodox approach to the campaign.</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="img-fluid m-5 pics" style="background-color:#deddd2;"
+                        src="https://static.wixstatic.com/media/3b78a8_9432f6a8bbfc46d7978641fe817d1fe6~mv2.jpg/v1/fill/w_502,h_273,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/s8.jpg"
+                        alt="">
+
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-7 text-center">
+                    <h2 class="heading mb-3 border-bottom border-2 border-danger">1990s</h2>
+                    <p class="lead par">The long standing Lee Cooper logo was refreshed to the one that we recognise
+                        today.
+                        Lee Cooper also launched an exciting new collection called ‘3 by 1’ – the first five pocket
+                        slack jean to hit the market.</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="img-fluid m-5 pics" style="background-color:#deddd1;"
+                        src="https://static.wixstatic.com/media/3b78a8_5e11390f07734f918eb38be9c91e3f06~mv2.jpg/v1/fill/w_502,h_273,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/s9.jpg"
+                        alt="">
+
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-7 text-center">
+                    <h2 class="heading mb-3 border-bottom border-2 border-danger">2000s</h2>
+                    <p class="lead par">Lee Cooper collaborated with Europe’s ‘IT’ girl, French model and actress, Lou
+                        Doillon. The collaboration celebrated the brand’s heritage with previous brand ambassador and
+                        Doillon’s mother, the legendary Jane Birkin. During this time, Lee Cooper released a clothing
+                        range inspired by The Beatles.</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="img-fluid m-5 pics" style="background-color:#deddd2;"
+                        src="https://static.wixstatic.com/media/3b78a8_c5fb9f1603294051a935d105b049792b~mv2.jpg/v1/fill/w_502,h_273,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/s10.jpg"
+                        alt="">
+
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-7 text-center">
+                    <h2 class="heading mb-3 border-bottom border-2 border-danger">2008</h2>
+                    <p class="lead par">Lee Cooper celebrated its 100th year anniversary. With a rich history as the
+                        original British denim brand and a century worth of expertise, Lee Cooper celebrated by
+                        supplying denim jackets and suits for over 1,200 members of the British Olympic and para-Olympic
+                        team for the opening ceremony of the 2008 Beijing Olympics.</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="img-fluid m-5 pics" style="background-color:#deddd1;"
+                        src="https://static.wixstatic.com/media/3b78a8_27363215eae34dbea13a1f3af8a9649b~mv2.jpg/v1/crop/x_0,y_0,w_586,h_546/fill/w_502,h_466,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/s11.jpg"
+                        alt="">
+
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-7 text-center">
+                    <h2 class="heading mb-3 border-bottom border-2 border-danger">2017</h2>
+                    <p class="lead par">Lee Cooper launches an artisan range – The Cooper Collection - featuring
+                        selvedge
+                        denim and premium fabrics on classic and reimagined silhouettes. In a nod to where it all began
+                        in 1908 select styles remain manufactured in East London to reflect the craftmanship that has
+                        driven Lee Cooper since its inception.</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="img-fluid m-5 pics" style="background-color:#deddd2;"
+                        src="https://static.wixstatic.com/media/3b78a8_f80fa6afbda1448f82ff382ae362a821~mv2.jpg/v1/crop/x_416,y_33,w_1816,h_1593/fill/w_502,h_440,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/TCC_SS19_05.jpg"
+                        alt="">
+
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-7 text-center">
+                    <h2 class="heading mb-3 border-bottom border-2 border-danger">TODAY</h2>
+                    <p class="lead par">With a foot strongly in the global denim space, Lee Cooper continues to strive
+                        forward with a genuine ethos of designing denim with a British influence – London is in our
+                        Jeans. The Autumn/Winter 2019 campaign features contemporary dancer Renee Stewart and British
+                        actor Harry Kirton from television series Peaky Blinders. Launching in July, the campaign
+                        features an original track by British icon BOY GEORGE.</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="img-fluid m-5 pics" style="background-color:#deddd1;"
+                        src="https://static.wixstatic.com/media/3b78a8_c0314aacd4054ff6a9500e68862bed42~mv2.jpg/v1/crop/x_0,y_10,w_2500,h_1967/fill/w_502,h_395,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/TODAY.jpg"
+                        alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text-center fs-3 fw-bolder mb-2 insta">FOLLOW LEE COOPER ON INSTAGRAM</div>
+    <div class="mt-3 text-center">
+        <img class="size"
+            src="https://scontent-iad3-2.cdninstagram.com/v/t51.2885-15/323841184_8461204537287524_1871560805053104099_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=TBxM5_8C-sMAX_wcjvQ&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AEQ6tj4EAAAA&oh=00_AfCrqqdyzq5UuaRw8vWvgV0-78YRLQvEPZ6lszgva4ZnXg&oe=63C58A4D"
+            width="240px" alt="...">
+        <img class="size size2"
+            src="https://scontent-iad3-2.cdninstagram.com/v/t51.2885-15/322625997_1821632184874548_1487076528159752717_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=_LVAUuh2gm8AX9NzAe-&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AEQ6tj4EAAAA&oh=00_AfD3bsDrVpf87g0Rv19PnncBWj5cZ7A9aUcRSh9aXuRQyg&oe=63C72D21"
+            width="300px" height="300px" alt="...">
+        <img class="size"
+            src="https://scontent-iad3-2.cdninstagram.com/v/t51.2885-15/320523184_1362033121295995_7405830434822517244_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=FgOGJTqC8bAAX-p0w77&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AEQ6tj4EAAAA&oh=00_AfCM6e4_Jzftqa7BL_CsdK1RXv_5c2wnnr2bJn3pwJRZmg&oe=63C5B706"
+            width="240px" alt="...">
+    </div>
+    <div class="container mt-5 text-center  ">
+        <div class="border-bottom border-2 border-dark ">
+            <img class="mb-5 icons"
+                src="https://static.wixstatic.com/media/3b78a8_df29598af40b41a6b24e9dd3ed22b7a4~mv2.png/v1/fill/w_210,h_50,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/The-Cooper-Collection_Final.png">
+            <img class="ms-5 ps-5 mb-5 icons"
+                src="https://static.wixstatic.com/media/3b78a8_e89524e749214c1493d8c30b1ba180fd~mv2.png/v1/fill/w_153,h_89,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/l2.png">
+            <img class="ms-5 ps-5 mb-5 icons"
+                src="https://static.wixstatic.com/media/3b78a8_e0b1ee3998ed41a4ab319d6cac1a81cb~mv2.png/v1/fill/w_153,h_89,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/l3.png">
+            <img class="ms-5 ps-5 mb-5 icons"
+                src="https://static.wixstatic.com/media/3b78a8_3c3058610f944d9ebbbf4f5ee6763683~mv2.png/v1/fill/w_144,h_89,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/LC-workwear-Logo-web-FINAL3_edited.png">
+        </div>
+    </div>
+    <div class="container ms-3 ps-5 mt-5 fs-5 text-center sm">
+        <a class="text-decoration-none text-black ms-5 ps-5 sm" href="https://www.facebook.com/leecooperbrands"
+            target="_blank">FACEBOOK</a>
+        <a class="text-decoration-none text-black ms-5 ps-5 sm" href="https://twitter.com/leecooper"
+            target="_blank">TWITTER</a>
+        <a class="text-decoration-none text-black ms-5 ps-5 sm" href="https://www.youtube.com/user/1908LeeCooper"
+            target="_blank">YOUTUBE</a>
+        <a class="text-decoration-none text-black ms-5 ps-5 sm" href="https://www.instagram.com/leecooper1908/"
+            target="_blank">INSTAGRAM</a>
+        <a class="text-decoration-none text-black ms-5 ps-5 sm" href="" target="_blank">TIKTOK</a>
+    </div>
+    <div class="container text-center mt-5 fs-5 sms">
+        <a class="text-decoration-none text-black sms" href="TREMS AND CONDITIONS.html">TREMS AND CONDITIONS</a>
+        <a class="text-decoration-none text-black ms-4 sms" href="CONTACTS.html">CONTACTS</a>
+        <a class="text-decoration-none text-black ms-4 sms" href="PRIVACY POLICY.html">PRIVACY POLICY</a>
+        <a class="text-decoration-none text-black ms-4 sms">&COPY; LEE COOPER 2023</a>
+    </div>
+
+</body>
+
+</html>
